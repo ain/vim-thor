@@ -1,6 +1,6 @@
 # vim-thor
 
-Vim plugin for [Thor](erikhuda/thor).
+Vim plugin for [Thor](https://github.com/erikhuda/thor).
 
 ## Installation
 
