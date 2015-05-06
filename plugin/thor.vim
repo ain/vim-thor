@@ -1,3 +1,8 @@
+if (exists('g:loaded_thor') && g:loaded_thor) || v:version < 700 || &cp
+  finish
+endif
+let g:loaded_thor = 1
+
 au BufRead,BufNewFile *.thor setfiletype ruby
 
 function! s:Thor(bang, args)
